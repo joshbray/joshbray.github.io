@@ -1,0 +1,88 @@
+/* Links */
+a {
+  color:#fff;
+}
+a:hover {
+  color: #008C9E;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+/* hr {
+  border: 4px solid #343838;
+  width: 25%;
+} */
+
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/* Base structure */
+html,
+body {
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+  font-family: 'Gayathri', sans-serif;
+}
+.lead {
+  font-family: 'Libre Barcode 39 Extended', cursive;
+  font-size: 62px;
+  color: #343838;
+}
+
+.tagline {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 14px;
+  color: #00DFFC;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+/* .cover-container {
+} */
+
+/* Cover */
+.cover {
+  padding: 0 1.5rem;
+  color: #00DFFC; 
+}
+
+/* Footer */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+  font-size: 18px;
+}
+
+
+body {
+	background: linear-gradient(-45deg, #0c0c0c, #1b1b1b, #181818, #1b1b1b);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
